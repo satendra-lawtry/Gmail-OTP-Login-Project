@@ -1,0 +1,6 @@
+<h1>Index page is running</h1>
+<form action="sendemail" method="post">
+    {% csrf_token %}
+    EMAIL<input type="email" name="email" />
+    <input type="submit" />
+</form>
